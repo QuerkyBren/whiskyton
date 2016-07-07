@@ -12,19 +12,13 @@ FTP_SERVER = config('FTP_SERVER', default=False)
 FTP_USER = config('FTP_USER', default=False)
 FTP_PASSWORD = config('FTP_PASSWORD', default=False)
 
-MAIN_TITLE = 'Whiskyton'
-HEADLINE = 'Find whiskies that you like!'
+MAIN_TITLE = 'Juicethon'
+HEADLINE = 'Find jucies that you like!'
 TASTES = (
+    'sweet',
     'spicy',
-    'honey',
-    'tobacco',
-    'medicinal',
-    'smoky',
-    'sweetness',
     'body',
     'floral',
     'fruity',
-    'malty',
     'nutty',
-    'winey'
 )
